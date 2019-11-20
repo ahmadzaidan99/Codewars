@@ -9,7 +9,7 @@ bool isValidWalk(std::vector<char> walk) {
   if(walk.size()!=10)//if the walk isn't 10 mins just terminate
     return false;
   else{
-    for (int i = 0; i < walk.size(); i++){//Count all the steps we are talking
+    for (int i = 0; i < walk.size(); i++){//Count all the steps we are taking
       if(walk[i]=='n')
         nwalk++;
       if(walk[i]=='s')
